@@ -469,4 +469,4 @@ Write the Python function `def magic_calculation(a, b):` that does exactly the s
 
 ## Author
 
-* **Benjamin Essilfie Ofori-Quansah** - [View Profile](https://github.com/essilfiequansah)
+* **NAMADOU MOCTAR** - [View Profile](https://github.com/Kamamoctar)
