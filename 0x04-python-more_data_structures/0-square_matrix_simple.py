@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-def squar_matrix_simple(matrix=[]):
-    new_matrix = [[x ** 2 for x in row] for row in matrix]
-    return (new_matrix)
+
+
+def square_matrix_simple(matrix=[]):
+    square = [[x ** 2 for x in i] for i in matrix]
+    return (square)
