@@ -1,4 +1,4 @@
-# Python - Object-relational mapping
+# 0xF- Python - Object-relational mapping
 
 In this project, I learned about how object-relational mapping is used for
 database scripting. I became familiar with using MySQLdb and SQLAlchemy to
@@ -164,4 +164,4 @@ for all files. Provided by ALX.
   * Usage: `./102-relationship_cities_states_list.py <mysql username>
   <mysql password> <database name>`.
   * Uses the `state` relationship to access the `State` objects linked to `City` objects.
-  * Results are sorted by ascending `cities.id`.
+  * Results are sorted by ascending
