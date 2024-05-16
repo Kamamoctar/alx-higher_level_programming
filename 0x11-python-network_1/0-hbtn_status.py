@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-    a Python script that fetches https://alx-intranet.hbtn.io/status
+    Script that fetches https://alx-intranet.hbtn.io/status
  """
 
 
 import urllib.request
-"""Import urllib module"""
+"""Importation du module urllib"""
 
 
 if __name__ == "__main__":
