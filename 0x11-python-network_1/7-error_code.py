@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-Use requests package to make a get request to given URL and display
-the body of response, or error code if error.
-"""
+""" Utilisez le package requests pour effectuer une requête GET à l'URL donnée et affichez le corps de la réponse, ou le code d'erreur en cas d'erreur. """
 import sys
 import requests
 
