@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''2-post_email.py module'''
+"""2-post_email.py module"""
 
 from urllib import request
 from urllib import parse
