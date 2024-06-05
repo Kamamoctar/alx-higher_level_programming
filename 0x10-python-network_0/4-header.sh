@@ -1,3 +1,3 @@
 #!/bin/bash
-# script that takes in a URL and displays all HTTP methods the server will accept.
-curl -s -H "X-School-User-Id: 98" $1
+# Script that takes an URL and displays the body of the response
+curl -sH "X-School-User-Id: 98" "${1}"
