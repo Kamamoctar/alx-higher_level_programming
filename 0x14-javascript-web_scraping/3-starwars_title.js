@@ -1,18 +1,16 @@
 #!/usr/bin/node
+
 const request = require('request');
-if (process.argv.length < 3) {
-  console.error('USAGE : ./3-starwars_title.js id');
-} else {
-  const id = process.argv[2];
-  const url = `https://swapi-api.alx-tools.com/api/films/${id}`;
-  request.get(`${url}`, (err, res, body) => {
-    if (err) {
-      console.error(err);
-    } else if (res.statusCode === 200) {
-      const content = JSON.parse(body);
-      console.log(content.title);
-    } else {
-      console.error('Ooop!! something went wrong ');
-    }
-  });
-}
+const episodeNum = process.argv[2];
+const API_URL = 'https://swapi-api.hbtn.io/api/films/';
+
+request(API_URL + episodeNum, function (err, response, body) {
+  if (err) {
+    console.log(err);
+  } else if (response.statusCode === 200) {
+    const responseJSON = JSON.parse(body);
+    console.log(responseJSON.title);
+  } else {
+    console.log('Error code: ' + response.statusCode);
+  }
+});
